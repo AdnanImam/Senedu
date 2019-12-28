@@ -97,9 +97,12 @@
                                     <input type="number" class="form-control" placeholder="harga">
                                 </div>
                                 <div class="col-md-4">
-                                    <h7>Judul Simulasi</h7>
+                                    <h6>Kode Enroll (jika tidak menggunakan tiket</6>
                                     <br>
-                                    <input type="text" class="form-control" placeholder="Nama Simulasi">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-square"></i></span>
+                                        <input class="form-control"  type="text" disabled="true">
+                                    </div>
                                 </div>
                             </div>
                             <div class="row" style="padding-left:2%; padding-top:2%; padding-bottom:2%">
@@ -188,33 +191,33 @@
                     </div>
                     <div class="col-md-6" style="padding:2%">
                         <div class="row">
-                             <div align="center" class="col-md-6">
-                                <div class="card-body"  style="background-color:#fff; padding:2%";>
-                                     <img class="card-img-bottom" style="width:10%; padding-top:10%" src="<?php echo base_url()?>assets/images/note.png">
+                            <div align="center" class="col-md-6">
+                                <div class="card-body" style="background-color:#fff; padding:2%" ;>
+                                    <img class="card-img-bottom" style="width:10%; padding-top:10%" src="<?php echo base_url()?>assets/images/note.png">
                                     <h6 class="card-title" style="margin:4%">JAWABAN & SOAL BELUM DIBUAT</h6>
                                     <a href="#" class="btn btn-warning btn-xs" style="margin:2%; margin-bottom:10%">BUAT SOAL & KUNCI JAWABAN</a>
                                 </div>
                             </div>
                             <div align="center" class="col-md-6">
-                                <div class="card-body"  style="background-color:#fff; padding:2%";>
-                                     <img class="card-img-bottom" style="width:10%; padding-top:10%" src="<?php echo base_url()?>assets/images/phonebook.png">
+                                <div class="card-body" style="background-color:#fff; padding:2%" ;>
+                                    <img class="card-img-bottom" style="width:10%; padding-top:10%" src="<?php echo base_url()?>assets/images/phonebook.png">
                                     <h6 class="card-title" style="margin:4%">BELUM ADA PENGAWAS</h6>
                                     <a href="#" class="btn btn-warning btn-xs" style="margin:2%; margin-bottom:10%">TAMBAH PENGAWAS</a>
                                 </div>
                             </div>
-                            
+
                         </div>
-                         <div align="center" class="row" style="padding-top:5%">
-                              <div align="center" class="col-md-6">
-                                <div class="card-body"  style="background-color:#fff; padding:2%";>
-                                     <img class="card-img-bottom" style="width:10%; padding-top:10%" src="<?php echo base_url()?>assets/images/whatsapp.png">
+                        <div align="center" class="row" style="padding-top:5%">
+                            <div align="center" class="col-md-6">
+                                <div class="card-body" style="background-color:#fff; padding:2%" ;>
+                                    <img class="card-img-bottom" style="width:10%; padding-top:10%" src="<?php echo base_url()?>assets/images/whatsapp.png">
                                     <h6 class="card-title" style="margin:4%">GROUP CHAT WHATSAPP</h6>
                                     <a href="#" class="btn btn-default btn-xs" style="margin:2%; margin-bottom:10%">KELOLA GROUP</a>
                                 </div>
                             </div>
-                              <div align="center" class="col-md-6">
-                                <div class="card-body"  style="background-color:#fff; padding:2%";>
-                                     <img class="card-img-bottom" style="width:10%; padding-top:10%" src="<?php echo base_url()?>assets/images/scanner.png">
+                            <div align="center" class="col-md-6">
+                                <div class="card-body" style="background-color:#fff; padding:2%" ;>
+                                    <img class="card-img-bottom" style="width:10%; padding-top:10%" src="<?php echo base_url()?>assets/images/scanner.png">
                                     <h6 class="card-title" style="margin:4%">UPLOAD SCAN JAWABAN</h6>
                                     <a href="#" class="btn btn-default btn-xs" style="margin:2%; margin-bottom:10%">UPLOAD JAWABAN</a>
                                 </div>
